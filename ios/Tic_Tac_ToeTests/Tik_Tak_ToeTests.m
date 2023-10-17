@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface Tik_Tak_ToeTests : XCTestCase
+@interface Tic_Tac_ToeTests : XCTestCase
 
 @end
 
-@implementation Tik_Tak_ToeTests
+@implementation Tic_Tac_ToeTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL (^)(UIView *view))test
 {

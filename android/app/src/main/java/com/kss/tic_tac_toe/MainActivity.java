@@ -1,4 +1,4 @@
-package com.tik_tak_toe;
+package com.kss.tic_tac_toe;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
@@ -13,7 +13,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "Tik_Tak_Toe";
+    return "Tic_Tac_Toe";
   }
 
   /**

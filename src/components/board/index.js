@@ -1,8 +1,9 @@
 import React from 'react';
 import {View, Text, Image, FlatList, TouchableOpacity} from 'react-native';
 import {style} from './style';
+import { Colors } from '../../constant/color';
 
-const Board = ({data, onClick}) => {
+const Board = ({data, onClick, winState}) => {
   return (
     <View style={style.container}>
       <Image source={require('../../asset/board.png')} style={style.boardImg} />
@@ -16,7 +17,7 @@ const Board = ({data, onClick}) => {
             return (
               <TouchableOpacity
                 key={index}
-                style={style.button}
+                style={[style.button, winState.includes(index)?{backgroundColor: Colors.winState}:{}]}
                 onPress={() => onClick(index)}>
                 {item === 'X' || item === 'O' ? (
                   <Image

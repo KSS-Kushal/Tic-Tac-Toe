@@ -25,6 +25,8 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 import PlayWithFriend from './src/screens/playWithFriend';
+import Test from './src/screens/test';
+import Home from './src/screens/home';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -93,7 +95,9 @@ function App(): JSX.Element {
           <LearnMoreLinks />
         </View>
       </ScrollView> */}
+      {/* <Home /> */}
       <PlayWithFriend />
+      {/* <Test /> */}
     </SafeAreaView>
   );
 }

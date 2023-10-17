@@ -1,4 +1,4 @@
-package com.tik_tak_toe;
+package com.kss.tic_tac_toe;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

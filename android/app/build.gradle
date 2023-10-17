@@ -73,9 +73,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.tik_tak_toe"
+    namespace "com.kss.tic_tac_toe"
     defaultConfig {
-        applicationId "com.tik_tak_toe"
+        applicationId "com.kss.tic_tac_toe"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
